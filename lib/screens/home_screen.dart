@@ -3,7 +3,7 @@ import 'dart:developer';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:filmdb_project/screens/movies_screen.dart';
-import 'package:filmdb_project/utils/snackbar_util.dart';
+import 'package:filmdb_project/utils/widget_util.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

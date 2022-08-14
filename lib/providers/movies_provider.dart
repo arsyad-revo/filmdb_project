@@ -163,7 +163,7 @@ class MoviesNotifier with ChangeNotifier {
     searchedResult = BasicResponse();
     try {
       final response = await APIService.getData(
-          "${UrlConstant.baseUrl}/search/movie?query=$query?api_key=${UrlConstant.apiKey}");
+          "${UrlConstant.baseUrl}/search/movie?query=$query&api_key=${UrlConstant.apiKey}");
 
       searchedMovies?.clear();
       searchedResult = response;
@@ -183,5 +183,12 @@ class MoviesNotifier with ChangeNotifier {
       notifyListeners();
       return searchedResult;
     }
+  }
+
+  resetSearch() {
+    loadSearch = false;
+    searchedMovies = [];
+    searchedResult = BasicResponse();
+    notifyListeners();
   }
 }

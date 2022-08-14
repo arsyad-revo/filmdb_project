@@ -195,13 +195,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.1"
-  flutter_staggered_grid_view:
-    dependency: "direct main"
-    description:
-      name: flutter_staggered_grid_view
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.6.2"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -212,13 +205,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  google_nav_bar:
-    dependency: "direct main"
-    description:
-      name: google_nav_bar
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "5.0.6"
   http:
     dependency: "direct main"
     description:
