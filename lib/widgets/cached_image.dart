@@ -1,4 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:filmdb_project/utils/widget_util.dart';
 import 'package:flutter/material.dart';
 
 class CachedImage extends StatelessWidget {
@@ -20,11 +21,11 @@ class CachedImage extends StatelessWidget {
                 ),
               ),
             ),
-        placeholder: (context, url) => const Center(
+        placeholder: (context, url) => Center(
               child: SizedBox(
                 height: 25,
                 width: 25,
-                child: CircularProgressIndicator(),
+                child: customLoading(),
               ),
             ),
         errorWidget: (context, url, error) => const Icon(Icons.error));

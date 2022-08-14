@@ -10,3 +10,9 @@ showSnackbar(context, text, {Color? color}) {
 // and use it to show a SnackBar.
   return ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }
+
+customLoading() {
+  return CircularProgressIndicator(
+    color: Colors.green[300],
+  );
+}

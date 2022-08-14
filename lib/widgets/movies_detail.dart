@@ -56,8 +56,9 @@ class MoviesDetail extends StatelessWidget {
                             fontWeight: FontWeight.bold, fontSize: 18),
                       ),
                       Text(
-                        "${value.movie!.genre!.join(", ")} | ${value.movie!.releaseDate!.substring(0, 4)} | ${getTimeString(value.movie!.runtime!)}",
+                        "${value.movie!.genre!.join(", ")}\n${value.movie!.releaseDate!.substring(0, 4)} | ${getTimeString(value.movie!.runtime!)}",
                         style: const TextStyle(fontSize: 14),
+                        textAlign: TextAlign.center,
                       ),
                       Row(
                           mainAxisAlignment: MainAxisAlignment.center,
