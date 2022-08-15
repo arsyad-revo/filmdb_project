@@ -80,7 +80,7 @@ class _SearchScreenState extends State<SearchScreen> {
                             crossAxisSpacing: 10,
                             mainAxisSpacing: 10,
                             crossAxisCount: 2,
-                            childAspectRatio: 80 / 125),
+                            childAspectRatio: 75 / 125),
                     itemBuilder: (context, i) {
                       return MoviesCard(
                         data: movies[i],

@@ -160,7 +160,7 @@ class _MoviesScreenState extends State<MoviesScreen> {
                   ),
                 ),
                 AspectRatio(
-                    aspectRatio: 4 / 3,
+                    aspectRatio: 7 / 6,
                     child: Consumer<MoviesNotifier>(
                       builder: (context, value, child) {
                         if (value.loadTop!) {
@@ -207,7 +207,7 @@ class _MoviesScreenState extends State<MoviesScreen> {
                 ),
               ),
               AspectRatio(
-                  aspectRatio: 4 / 3,
+                  aspectRatio: 7 / 6,
                   child: Consumer<MoviesNotifier>(
                     builder: (context, value, child) {
                       if (value.loadPopular!) {

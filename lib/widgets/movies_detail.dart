@@ -112,7 +112,7 @@ class MoviesDetail extends StatelessWidget {
                             ),
                           ),
                           AspectRatio(
-                              aspectRatio: 4 / 3,
+                              aspectRatio: 7 / 6,
                               child: Consumer<MoviesNotifier>(
                                 builder: (context, value, child) {
                                   if (value.loadRecommendation!) {
